@@ -36,7 +36,7 @@ void draw() {
     textSize(24);
     float opacidad = map(contadorTiempo, 0, 150, 0, 255);
     fill(0, opacidad);
-    text("Año: 2014", width/2, height/2);
+    text("Año: 2011", width/2, height/2);
     
   } else if (numPantalla == 2) {
    //pantalla 2 ---------
