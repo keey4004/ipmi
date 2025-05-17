@@ -64,6 +64,7 @@ void draw() {
 }
 
 void mousePressed() {
+  numPantalla++;
   if (numPantalla == 0) {
     float distancia = dist(100,200,mouseX,mouseY);
     if(distancia<40) {
